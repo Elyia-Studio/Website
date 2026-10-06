@@ -19,6 +19,14 @@ Détail complet : https://www.elyia.ch/tarifs.html
   Déduits si le projet se poursuit
 - Appel découverte : gratuit, 30 minutes, sans engagement
 
+## Abonnement de suivi (optionnel)
+
+Polissage, jamais imposé. Tout est installé chez le client ; Elyia livre les nouvelles versions sans accéder à son outil.
+
+- Polissage Facette (agent IA) : dès 130 CHF/mois par agent, 45 min de travail par mois (report sur 3 mois), facturé à l'année
+- Polissage Éclat (site web) : dès 150 CHF/mois, 1 h de modifications par mois, facturé à l'année
+- Polissage Écrin (solution sur mesure) : dès 4'200 CHF/an, 12 h de travail par an
+
 ## Pages
 
 - [Agents IA et automatisation](https://www.elyia.ch/agents-ia-automatisation.html)
