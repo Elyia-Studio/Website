@@ -191,3 +191,7 @@ a[data-ely-offer-cta]:hover{border-color:var(--text-heading);background:var(--su
   [data-grid][data-grid]{gap:18px!important}
   section[data-pad][data-pad]:has(+ #s-contact){padding-bottom:84px!important}
 }
+
+/* 13. Polissage (v1.2) : cartes de l’abonnement sur Tarifs, deux cartes empilées sur Sites web */
+[data-ely-polissage]{margin-top:40px;padding-top:0}
+[data-ely-stack]{display:flex;flex-direction:column;gap:20px}
