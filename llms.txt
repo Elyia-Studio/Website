@@ -1,0 +1,41 @@
+# Elyia
+
+> Agence IA pour les PME du Valais, de Genève et de Suisse romande.
+> Agents IA, solutions sur mesure, formation et création de sites web.
+
+Basée en Valais, Elyia intervient dans tout le canton, à Genève, sur l'arc
+lémanique et en Suisse romande. Fondée par Cindy Montandon et Sophie Roduit.
+
+## Offres et prix
+
+Détail complet : https://www.elyia.ch/tarifs.html
+
+
+- Facette, agent IA et automatisation : dès 3'500 CHF, forfait, 3 à 4 semaines
+- Écrin, solution IA sur mesure : dès 15'000 CHF, périmètre défini au cadrage
+- Formation IA : dès 1'200 CHF pour deux heures, dès 2'000 CHF pour une demi-journée
+- Éclat, création de site web : dès 3'000 CHF pour quatre pages
+- Cadrage d'un agent : 350 CHF. Cadrage d'une solution sur mesure : 750 CHF.
+  Déduits si le projet se poursuit
+- Appel découverte : gratuit, 30 minutes, sans engagement
+
+## Pages
+
+- [Agents IA et automatisation](https://www.elyia.ch/agents-ia-automatisation.html)
+- [Solutions IA sur mesure](https://www.elyia.ch/solutions-ia-sur-mesure.html)
+- [Formation IA](https://www.elyia.ch/formation-ia.html)
+- [Sites web](https://www.elyia.ch/sites-web.html)
+- [Tarifs](https://www.elyia.ch/tarifs.html)
+- [À propos](https://www.elyia.ch/a-propos.html)
+- [Contact](https://www.elyia.ch/contact.html)
+- [Blog](https://www.elyia.ch/blog.html)
+
+## Articles
+
+- [Par quoi commencer avec l'IA quand on est une PME ?](https://www.elyia.ch/blog-par-quoi-commencer.html)
+- [Où vont vos données quand vous utilisez l'IA ?](https://www.elyia.ch/blog-donnees-ia.html)
+- [Combien coûte un agent IA pour une PME suisse ?](https://www.elyia.ch/blog-combien-coute-un-agent-ia.html)
+
+## Contact
+
+info@elyia.ch · +41 22 886 03 61

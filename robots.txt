@@ -1,0 +1,6 @@
+# robots.txt - elyia.ch
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.elyia.ch/sitemap.xml

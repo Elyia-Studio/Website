@@ -1,0 +1,140 @@
+/* Elyia — Colors
+   Concept: a cut diamond on prune-night. The neutrals are the stone;
+   the three "fires" (violet, turquoise, azur) are the light refracting through it.
+   Rule: one accent at a time. Amethyst violet is the primary fire.
+
+   Light-mode text uses the *readable* variants (AA on nacre);
+   the pastel variants are reserved for fills, glows, dark-mode and the fire gradient. */
+
+:root {
+  /* ---- Neutral ramp — anthracite ink → warm cream (light end de-tinted) ---- */
+  --prune-950: #161619; /* near-black anthracite */
+  --prune-900: #232327; /* anthracite — brand ink base */
+  --prune-800: #2E2E35;
+  --prune-700: #3D3D47;
+  --prune-600: #55545F;
+  --prune-500: #6E6C79;
+  --prune-400: #8C8A93;
+  --prune-300: #ABA8AF;
+  --prune-200: #D4D2D9;
+  --prune-100: #E9E7EC;
+  --prune-75:  #F2F1F5;
+  --prune-50:  #FBFBFC; /* crisp near-white — brand background (barely-there cool grey) */
+  --white:     #FFFFFF;
+
+  /* ---- Fire: Amethyst violet (primary accent) ---- */
+  --violet-pastel: #C7B0F2;
+  --violet-300:    #B49AEB;
+  --violet-400:    #9A79E2;
+  --violet-500:    #7C5CE0; /* core violet */
+  --violet-600:    #6647C9;
+  --violet-700:    #533AA8; /* readable on nacre — AA */
+  --violet-glow:   rgba(124, 92, 224, 0.16);
+
+  /* ---- Fire: Turquoise-green ---- */
+  --turq-pastel: #9DEBDC;
+  --turq-300:    #6FDDC9;
+  --turq-400:    #34C7AE;
+  --turq-500:    #14AD93;
+  --turq-600:    #0E8F7A;
+  --turq-700:    #0B6F5F; /* readable on nacre — AA */
+
+  /* ---- Fire: Azur blue ---- */
+  --azur-pastel: #BFD7FF;
+  --azur-300:    #94BEFF;
+  --azur-400:    #6BA0F7;
+  --azur-500:    #4483EC;
+  --azur-600:    #2E68CC;
+  --azur-700:    #274F9C; /* readable on nacre — AA */
+
+  /* ---- Status — kept in the pastel family (soft rose + warm gold) ---- */
+  --garnet-500: #E687A0;  /* soft rose pastel */
+  --garnet-600: #C05873;  /* danger, readable */
+  --amber-500:  #F0C56A;  /* warm gold pastel */
+  --amber-600:  #A9791E;  /* warning, readable */
+
+  /* ---- The fire gradient — the dominant accent for buttons & big elements ---- */
+  --gradient-fire: linear-gradient(115deg, #9A79E2 0%, #34C7AE 52%, #4BA4FB 100%); /* @kind color */
+  --gradient-fire-soft: linear-gradient(115deg, #C7B0F2 0%, #9DEBDC 52%, #A9D4FF 100%); /* @kind color */
+  /* semantic alias: use the gradient for prominent surfaces, violet for small text */
+  --accent-strong: var(--gradient-fire); /* @kind color */
+}
+
+/* ================= LIGHT THEME (default) ================= */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  --surface-page:    var(--prune-50);
+  --surface-card:    var(--white);
+  --surface-raised:  var(--white);
+  --surface-sunken:  var(--prune-75);
+  --surface-inverse: var(--prune-900);
+
+  --text-heading: var(--prune-900);
+  --text-body:    var(--prune-800);
+  --text-muted:   var(--prune-500);
+  --text-subtle:  var(--prune-400);
+  --text-inverse: var(--prune-50);
+  --text-on-accent: var(--white);
+
+  --border-hairline: rgba(35, 35, 39, 0.10);
+  --border-strong:   rgba(35, 35, 39, 0.18);
+  --border-accent:   var(--violet-500);
+
+  --accent:        var(--violet-500);
+  --accent-hover:  var(--violet-600);
+  --accent-press:  var(--violet-700);
+  --accent-text:   var(--violet-700); /* accent as readable text/link */
+  --accent-fill:   var(--violet-glow);
+
+  --fire-violet: var(--violet-700);
+  --fire-turq:   var(--turq-700);
+  --fire-azur:   var(--azur-700);
+
+  --success: var(--turq-700);
+  --info:    var(--azur-700);
+  --warning: var(--amber-600);
+  --danger:  var(--garnet-600);
+
+  --focus-ring: rgba(124, 92, 224, 0.45);
+}
+
+/* ================= DARK THEME ================= */
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --surface-page:    var(--prune-950);
+  --surface-card:    var(--prune-900);
+  --surface-raised:  var(--prune-800);
+  --surface-sunken:  #101013;
+  --surface-inverse: var(--prune-50);
+
+  --text-heading: var(--prune-50);
+  --text-body:    var(--prune-100);
+  --text-muted:   var(--prune-300);
+  --text-subtle:  var(--prune-400);
+  --text-inverse: var(--prune-900);
+  --text-on-accent: var(--prune-950);
+
+  --border-hairline: rgba(231, 226, 240, 0.12);
+  --border-strong:   rgba(231, 226, 240, 0.22);
+  --border-accent:   var(--violet-400);
+
+  --accent:        var(--violet-400);
+  --accent-hover:  var(--violet-300);
+  --accent-press:  var(--violet-pastel);
+  --accent-text:   var(--violet-300); /* readable on prune */
+  --accent-fill:   rgba(124, 92, 224, 0.22);
+
+  --fire-violet: var(--violet-300);
+  --fire-turq:   var(--turq-300);
+  --fire-azur:   var(--azur-300);
+
+  --success: var(--turq-300);
+  --info:    var(--azur-300);
+  --warning: var(--amber-500);
+  --danger:  var(--garnet-500);
+
+  --focus-ring: rgba(180, 154, 235, 0.55);
+}
