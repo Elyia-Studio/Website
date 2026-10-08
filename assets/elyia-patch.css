@@ -195,3 +195,16 @@ a[data-ely-offer-cta]:hover{border-color:var(--text-heading);background:var(--su
 /* 13. Polissage (v1.2) : cartes de l’abonnement sur Tarifs, deux cartes empilées sur Sites web */
 [data-ely-polissage]{margin-top:40px;padding-top:0}
 [data-ely-stack]{display:flex;flex-direction:column;gap:20px}
+
+/* 14. Bandeau Polissage sous le prix (Agents IA, Sur mesure) : replié sur mobile */
+[data-ely-pol-band]{margin:28px 0 36px;background:var(--surface-card);border:1px solid var(--border-hairline);border-radius:24px;padding:clamp(20px,2.6cqw,28px) clamp(22px,2.8cqw,32px);box-shadow:var(--shadow-sm);display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,1.6fr);gap:12px 40px;align-items:center}
+[data-ely-pol-toggle]{display:none}
+#polissage{scroll-margin-top:110px}
+@media (max-width:720px){
+ [data-ely-pol-band]{grid-template-columns:1fr;gap:0}
+ [data-ely-pol-toggle]{display:inline-flex;align-items:center;gap:6px;justify-self:start;appearance:none;border:0;background:none;padding:14px 0 0;font-family:var(--font-body);font-size:14px;font-weight:600;color:var(--text-heading);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;cursor:pointer}
+ [data-ely-pol-toggle] [data-ely-chev]{display:inline-flex;transition:transform .3s}
+ [data-ely-pol-band][data-open] [data-ely-pol-toggle] [data-ely-chev]{transform:rotate(180deg)}
+ [data-ely-pol-body]{display:none;padding-top:14px}
+ [data-ely-pol-band][data-open] [data-ely-pol-body]{display:block}
+}

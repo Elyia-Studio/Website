@@ -201,3 +201,6 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();
+
+/* 14. Bandeau Polissage : déplier/replier sur mobile */
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-ely-pol-toggle]');if(!b)return;var c=b.closest('[data-ely-pol-band]');var o=!c.hasAttribute('data-open');if(o)c.setAttribute('data-open','');else c.removeAttribute('data-open');b.setAttribute('aria-expanded',o?'true':'false');});
