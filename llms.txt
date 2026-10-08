@@ -15,8 +15,8 @@ Détail complet : https://www.elyia.ch/tarifs.html
 - Écrin, solution IA sur mesure : dès 15'000 CHF, périmètre défini au cadrage
 - Formation IA : dès 1'200 CHF pour deux heures, dès 2'000 CHF pour une demi-journée
 - Éclat, création de site web : dès 3'000 CHF pour quatre pages
-- Cadrage d'un agent : 350 CHF. Cadrage d'une solution sur mesure : 750 CHF.
-  Déduits si le projet se poursuit
+- Cadrage : compris si le projet se poursuit. Facturé seulement si le client ne donne pas suite :
+  350 CHF pour un agent, 750 CHF pour une solution sur mesure
 - Appel découverte : gratuit, 30 minutes, sans engagement
 
 ## Abonnement de suivi (optionnel)
