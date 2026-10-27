@@ -1,0 +1,16 @@
+# Une seule adresse par page : la version .html (celle des canoniques, du sitemap et des liens internes).
+# Les adresses sans .html (anciennes versions indexées par Google) redirigent en 301.
+# Le « ! » est nécessaire : Netlify sert aussi /page depuis page.html, sinon la règle serait ignorée.
+/a-propos                         /a-propos.html                         301!
+/agents-ia-automatisation         /agents-ia-automatisation.html         301!
+/solutions-ia-sur-mesure          /solutions-ia-sur-mesure.html          301!
+/formation-ia                     /formation-ia.html                     301!
+/sites-web                        /sites-web.html                        301!
+/tarifs                           /tarifs.html                           301!
+/contact                          /contact.html                          301!
+/blog                             /blog.html                             301!
+/blog-par-quoi-commencer          /blog-par-quoi-commencer.html          301!
+/blog-donnees-ia                  /blog-donnees-ia.html                  301!
+/blog-combien-coute-un-agent-ia   /blog-combien-coute-un-agent-ia.html   301!
+/mentions-legales                 /mentions-legales.html                 301!
+/protection-des-donnees           /protection-des-donnees.html           301!
