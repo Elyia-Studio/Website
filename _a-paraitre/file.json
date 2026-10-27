@@ -1,0 +1,13 @@
+{
+  "_lisezmoi": "File d'attente du blog. Chaque mercredi à 7 h (Genève), l'Action GitHub publie les articles dont la date est arrivée. Voir scripts/publier_articles.py.",
+  "articles": [
+    {
+      "date": "2026-11-18",
+      "heure": "07:00",
+      "titre": "Quelle IA choisir pour votre PME ?",
+      "page": "blog-quelle-ia-choisir.html",
+      "image": "assets/blog/quelle-ia-choisir.jpg",
+      "carte": "_a-paraitre/blog-quelle-ia-choisir.carte.html"
+    }
+  ]
+}
