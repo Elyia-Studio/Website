@@ -2,6 +2,14 @@
   "_lisezmoi": "File d'attente du blog. Chaque mercredi à 7 h (Genève), l'Action GitHub publie les articles dont la date est arrivée. Voir scripts/publier_articles.py.",
   "articles": [
     {
+      "date": "2026-11-04",
+      "heure": "07:00",
+      "titre": "Combien coûte une solution IA sur mesure pour une PME ?",
+      "page": "blog-combien-coute-une-solution-sur-mesure.html",
+      "image": "assets/blog/solution-sur-mesure.jpg",
+      "carte": "_a-paraitre/blog-combien-coute-une-solution-sur-mesure.carte.html"
+    },
+    {
       "date": "2026-11-18",
       "heure": "07:00",
       "titre": "Quelle IA choisir pour votre PME ?",
