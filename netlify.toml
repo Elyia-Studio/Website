@@ -1,0 +1,14 @@
+# Le site est statique : Netlify publie la racine du dépôt.
+# Les commandes ci-dessous gèrent seulement la file d'attente du blog (_a-paraitre/).
+[build]
+  publish = "."
+  command = "echo 'Site statique'"
+
+# Production (www.elyia.ch) : les articles programmés restent invisibles jusqu'à leur date.
+[context.production]
+  command = "python3 scripts/masquer_articles_a_paraitre.py"
+
+# Prévisualisations des pull requests : tous les articles de la file sont visibles,
+# y compris leur carte sur la page Blog, pour pouvoir les valider avant leur date.
+[context.deploy-preview]
+  command = "python3 scripts/publier_articles.py --apercu"
