@@ -59,3 +59,4 @@ Le socle commun ne change jamais. On choisit une famille, puis on remplit les ch
 | blog-combien-coute-un-agent-ia | 1. Le lieu | Documents, cube et piles de pièces, Léman et jet d'eau | menthe |
 | blog-donnees-ia | 1. Le lieu | (à compléter) | bleu |
 | blog-quelle-ia-choisir | 2. La nature morte | Six objets en verre dépoli de formes différentes, un seul teinté | lavande, sur l'objet choisi |
+| blog-combien-coute-une-solution-sur-mesure | 3. Le geste | Deux offres imprimées côte à côte, une main annote au crayon | menthe, sur un marque-page adhésif |
