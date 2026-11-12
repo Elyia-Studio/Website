@@ -157,7 +157,8 @@ a[data-ely-offer-cta]:hover{border-color:var(--text-heading);background:var(--su
 
 /* ---------- 11. Pied de page, plus sobre ----------
    Logo et signature, liens du site, puis une ligne légale avec LinkedIn en lien texte.
-   La phrase descriptive (référencement) reste sur desktop et disparaît sur mobile. */
+   La phrase descriptive (référencement) reste sur desktop et disparaît sur mobile.
+   Réseaux sociaux (LinkedIn, Facebook, Instagram) : icônes monochromes à droite de la ligne légale, sur leur propre ligne en mobile. */
 [data-ely-foot]{max-width:1200px;margin:0 auto;padding:44px 28px 30px;display:grid;grid-template-columns:auto 1fr;gap:22px 48px;align-items:center}
 [data-ely-foot-brand]{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 [data-ely-foot-logo]{display:flex;align-items:center;gap:10px;text-decoration:none}
@@ -168,14 +169,18 @@ a[data-ely-offer-cta]:hover{border-color:var(--text-heading);background:var(--su
 [data-ely-foot-nav] a:hover,[data-ely-foot-legal] a:hover{color:var(--text-heading)}
 [data-ely-foot-legal]{grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;padding-top:22px;border-top:1px solid var(--border-hairline);font-size:13px;color:var(--text-subtle)}
 [data-ely-foot-legal] a{font-size:13px;color:var(--text-subtle)}
-[data-ely-foot-li]{display:inline-flex;align-items:center;gap:7px;margin-left:auto}
+[data-ely-foot-social]{display:inline-flex;align-items:center;gap:4px;margin-left:auto}
+[data-ely-foot-legal] [data-ely-foot-social] a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;color:var(--text-subtle);transition:color .2s var(--ease-out),background-color .2s var(--ease-out)}
+[data-ely-foot-legal] [data-ely-foot-social] a:hover{color:var(--text-heading);background:var(--surface-sunken)}
+[data-ely-foot-social] a:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+[data-ely-foot-social] svg{display:block;width:18px;height:18px}
 [data-ely-foot-seo]{grid-column:1 / -1;margin:-6px 0 0;font-size:13px;color:var(--text-subtle)}
 @media (max-width:860px){
   [data-ely-foot]{grid-template-columns:1fr;padding:36px 20px 26px;gap:26px}
   [data-ely-foot-nav]{display:grid;grid-template-columns:1fr 1fr;justify-content:start;gap:12px 20px}
   [data-ely-foot-nav] a{font-size:14.5px}
   [data-ely-foot-legal]{gap:10px 18px;padding-top:20px}
-  [data-ely-foot-li]{margin-left:0}
+  [data-ely-foot-social]{flex-basis:100%;margin:2px 0 0 -9px}
   [data-ely-foot-seo]{display:none}
 }
 
@@ -208,3 +213,7 @@ a[data-ely-offer-cta]:hover{border-color:var(--text-heading);background:var(--su
  [data-ely-pol-body]{display:none;padding-top:14px}
  [data-ely-pol-band][data-open] [data-ely-pol-body]{display:block}
 }
+
+/* Page Contact, bloc « Nous suivre sur les réseaux » : trois pastilles de même largeur. */
+[data-ely-social-pills] a{min-width:196px}
+[data-ely-social-pills] a > span:last-child{margin-left:auto}
