@@ -41,6 +41,7 @@ Polissage, jamais imposé. Tout est installé chez le client ; Elyia livre les n
 
 ## Articles
 
+- [Quelle IA choisir pour votre PME ?](https://www.elyia.ch/blog-quelle-ia-choisir.html)
 - [Combien coûte une solution IA sur mesure pour une PME ?](https://www.elyia.ch/blog-combien-coute-une-solution-sur-mesure.html)
 - [Par quoi commencer avec l'IA quand on est une PME ?](https://www.elyia.ch/blog-par-quoi-commencer.html)
 - [Où vont vos données quand vous utilisez l'IA ?](https://www.elyia.ch/blog-donnees-ia.html)
